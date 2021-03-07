@@ -67,7 +67,7 @@ document.querySelector('.b-10').onclick = t10;
 * Self-development
 
 ## Contact info
-**phone number**: +375 (25) 508 17 51
+**phone number**: hidden
 
 **email**: irinrudko@gmail.com
 
