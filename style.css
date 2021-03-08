@@ -466,7 +466,6 @@ img {
     min-height: 100vh;
     margin: 0 auto;
     background: #fff;
-    margin-bottom: 50px;
     border: 1px solid #4b4b4b;
     box-shadow: 1px 1px 10px #000;
     display: grid;
@@ -693,11 +692,49 @@ img {
 /* main styles end */
 
 /* footer styles start */
-.footer {
+.footer-wrapper {
     width: 100%;
-    background: #000;
+    box-shadow: 0px 1px 3px #000;
+    background: #4b4b4bb2;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 20px auto 0 auto;
+    padding: 10px;
+}
+
+.footer__contacts-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer__contacts-link {
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+
+.github:hover, .github:focus, .github:active, 
+.linkedin:hover, .linkedin:focus, .linkedin:active, 
+.gmail:hover, .gmail:focus, .gmail:active, 
+.youtube:hover, .youtube:focus, .youtube:active {
+    opacity: .75;
+    cursor: pointer;
+} 
+
+.github {
+    background: url("./assets/images/svg/github-ico.svg") no-repeat center;
+}
+
+.linkedin {
+    background: url("./assets/images/svg/linkedin-ico.svg") no-repeat center;
+}
+
+.gmail {
+    background: url("./assets/images/svg/gmail-ico.svg") no-repeat center;
+}
+
+.youtube {
+    background: url("./assets/images/svg/youtube-ico.svg") no-repeat center;
 }
 
 /* footer styles end */
