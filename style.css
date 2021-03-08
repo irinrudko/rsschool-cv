@@ -546,7 +546,7 @@ img {
 
 .nav-item:hover, .nav-item:focus, .nav-item:active {
     text-shadow: 2px 2px #b98070;
-    text-decoration: bold;
+    font-weight: bold;
 }
 
 .bg-white {
@@ -573,7 +573,6 @@ img {
     align-content: center;
     align-items: center;
     overflow: hidden;
-    padding-bottom: -150px;
 }
 
 .title, .subtitle, .section-title {
@@ -721,20 +720,20 @@ img {
     cursor: pointer;
 } 
 
-.github {
+/* .github {
     background: url("./assets/images/svg/github-ico.svg") no-repeat center;
-}
+} */
 
-.linkedin {
+/* .linkedin {
     background: url("./assets/images/svg/linkedin-ico.svg") no-repeat center;
-}
+} */
 
-.gmail {
+/* .gmail {
     background: url("./assets/images/svg/gmail-ico.svg") no-repeat center;
 }
 
 .youtube {
     background: url("./assets/images/svg/youtube-ico.svg") no-repeat center;
-}
+} */
 
 /* footer styles end */
