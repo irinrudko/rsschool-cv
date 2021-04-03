@@ -679,7 +679,7 @@ img {
     margin-bottom: 20px;
 }
 
-.languages-list li, .hard-skills-list li, .soft-skills-list li, .education-list li, .achievments-list li, .hobbies-list li {
+.languages-list li, .hard-skills-list li, .soft-skills-list li, .education-list li, .achievments-list li, .hobbies-list li, .projects-list li {
     list-style-position: inside;
     padding: 10px 0 10px 20px;
     font-family: 'Lato';
@@ -711,6 +711,10 @@ img {
 
 .achievments-list li {
     list-style-image: url('./assets/images/svg/achievement-ico.svg');
+}
+
+.projects-list li {
+    list-style-image: url('./assets/images/svg/projects-ico.svg');
 }
 
 .hobbies-list li {
